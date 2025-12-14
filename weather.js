@@ -106,8 +106,8 @@ async function startApp(){
 
     }catch(err){
         console.error("Location not available: ", err);
-        console.log("Fetching weather of Mumbai instead...");
-        await weatherByCity("mumbai");
+        console.log("Fetching weather of abu road instead...");
+        await weatherByCity("abu road");
     }
 }
 
