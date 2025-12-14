@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="weather.css" />
+</head>
+<body>
+
+  <div class="weather-card">
+    <form class="search-box">
+      <input type="text" placeholder="Enter city name" />
+      <button type="submit">🔍</button>
+    </form>
+
+    <div class="weather-info">
+      <img src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/fog.svg" alt="weather-icon">
+      <h1 class="temp">28°C</h1>
+      <h2 class="city">New Delhi</h2>
+      <p class="desc">Clear Sky</p>
+    </div>
+
+    <div class="extra-info">
+      <div class="box">
+        <span>💧</span>
+        <p>Humidity</p>
+        <h4 id="humidity">60%</h4>
+      </div>
+      <div class="box">
+        <span>🌬</span>
+        <p>Wind</p>
+        <h4 id="wind">12 km/h</h4>
+      </div>
+    </div>
+  </div>
+  <script src="weather.js"></script>
+</body>
+</html>
